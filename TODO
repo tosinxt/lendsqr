@@ -1,0 +1,81 @@
+# Lendsqr Wallet Service - TODO
+
+## Project Setup
+- [x] Initialize Node.js project with TypeScript
+- [x] Set up ESLint and Prettier
+- [x] Configure tsconfig.json
+- [ ] Set up Git repository
+- [ ] Create project structure
+  - src/
+    - config/
+    - controllers/
+    - middlewares/
+    - models/
+    - routes/
+    - services/
+    - types/
+    - utils/
+    - tests/
+
+## Database
+- [ ] Set up MySQL database
+- [ ] Configure KnexJS
+- [ ] Create migrations
+  - users
+  - wallets
+  - transactions
+  - blacklist_checks
+- [ ] Create seed data
+
+## Core Functionality
+### User Management
+- [ ] Create user model
+- [ ] Implement user registration
+- [ ] Set up JWT authentication
+- [ ] Create auth middleware
+
+### Wallet Operations
+- [ ] Create wallet model
+- [ ] Implement wallet creation
+- [ ] Fund wallet endpoint
+- [ ] Transfer between wallets
+- [ ] Withdraw from wallet
+- [ ] Get wallet balance
+
+### Integration
+- [ ] Set up Lendsqr Adjutor API client
+- [ ] Implement Karma blacklist check
+- [ ] Create mock service for testing
+
+## Testing
+### Unit Tests
+- [ ] Test user registration
+- [ ] Test wallet operations
+- [ ] Test transaction logic
+- [ ] Test error handling
+
+### Integration Tests
+- [ ] Test API endpoints
+- [ ] Test database interactions
+- [ ] Test Karma blacklist integration
+
+## Documentation
+- [ ] Write README.md
+  - Project overview
+  - Setup instructions
+  - API documentation
+  - Testing instructions
+- [ ] Create ERD diagram
+- [ ] Document environment variables
+
+## Deployment
+- [ ] Set up production database
+- [ ] Configure environment variables
+- [ ] Set up CI/CD pipeline
+- [ ] Deploy to Heroku
+
+## Final Steps
+- [ ] Record video walkthrough
+- [ ] Prepare submission document
+- [ ] Submit via Google Form
+- [ ] Send notification email
